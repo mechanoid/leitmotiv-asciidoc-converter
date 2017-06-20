@@ -12,9 +12,6 @@
     "eslint": "4.0.0",
     "standard": "10.0.2"
   },
-  "peerDependencies": {
-    "leitmotiv": "file:../leitmotiv"
-  },
   "dependencies": {
     "asciidoctor.js": "1.5.6-preview.1"
   }
