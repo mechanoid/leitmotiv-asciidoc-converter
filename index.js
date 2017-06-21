@@ -13,5 +13,5 @@ class AsciiDocConverter {
 const converter = new AsciiDocConverter(asciidoctor())
 
 module.exports = (leitmotiv) => {
-  leitmotiv.converters['adoc'] = (content) => converter.render(content.toString())
+  leitmotiv.converters['adoc'] = (node) => converter.render(node.content.toString())
 }
